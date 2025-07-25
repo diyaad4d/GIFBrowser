@@ -1,6 +1,7 @@
 #  GIF Browser
 
-🎬 A fun and interactive web app that lets users explore trending GIFs or search for any emotion, meme, or moment — powered by Giphy!. Built using **Node.js**, **Express**, **Axios**, and **EJS**, and  **public API**, ** powered by the [Giphy API](https://developers.giphy.com/) **.
+🎬 A fun and interactive web app that lets users explore trending GIFs or search for any emotion, meme, or moment!
+Built using **Node.js**, **Express**, **Axios**, and **EJS**, and  **public API** , **powered by the [Giphy API](https://developers.giphy.com/)**.
 
 ---
 
