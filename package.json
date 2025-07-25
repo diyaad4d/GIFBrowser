@@ -1,15 +1,15 @@
 {
   "name": "gif-browser",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "GIF Browser Capstone Project using Express, Axios, and Giphy API",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Diyaa Daifi",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.10.0",
     "body-parser": "^2.2.0",

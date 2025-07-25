@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const API_URL='https://api.giphy.com/v1/gifs';
 dotenv.config();
 const myapikey=process.env.API_KEY;
