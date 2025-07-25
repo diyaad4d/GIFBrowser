@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gif Browser</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+
+    <div class="home-button">
+        <button type="button" onclick="goHome()">🏠 Home</button>
+    </div>
+
+    <div class="search-form">
+        <form action="/search" method="post" id="searchForm">
+            <div class="search-row">
+                <input type="text" name="query" id="searchInput" placeholder="Type to search...">
+                <button type="submit">Search</button>
+            </div>
+            <div class="quick-options">
+                <button type="button" onclick="setQuickSearch('happy birthday')">happy birthday</button>
+                <button type="button" onclick="setQuickSearch('love')">love</button>
+                <button type="button" onclick="setQuickSearch('funny')">funny</button>
+                <button type="button" onclick="setQuickSearch('cat')">cat</button>
+                <button type="button" onclick="setQuickSearch('meme')">meme</button>
+                <button type="button" onclick="setQuickSearch('hello')">hello</button>
+                <button type="button" onclick="setQuickSearch('good morning')">good morning</button>
+                <button type="button" onclick="setQuickSearch('thank you')">thank you</button>
+            </div>
+        </form>
+    </div>
+
+    <h1> <%= head %></h1>
+    <div class="gif-container">
+        <% gifs.forEach(gif =>{%>
+        <div class="gif-item">
+            <img src="<%= gif.images.fixed_height.url %>" alt="GIF">
+            <button onclick="copyToClipboard('<%= gif.images.original.url %>')">Copy Link</button>
+        </div>
+
+        <% })%>
+    </div>
+
+
+    <script src="/JS/main.js"></script>
+</body>
+</html>
