@@ -53,17 +53,19 @@ A dynamic and responsive web application that allows users to browse trending GI
 3. Set up environment variables:
 Create a .env file in the root directory and add your Giphy API key:
 
-```bash
-GIPHY_API_KEY=your_actual_api_key_here
-```
+   ```bash
+   GIPHY_API_KEY=your_actual_api_key_here
+   ```
 
 4. Start the server:
-```bash
-npm start
-```
+   
+   ```bash
+   npm start
+   ```
 
-5. Open your browser and go to:
-```bash
-http://localhost:3000
-```
+6. Open your browser and go to:
+   
+   ```bash
+   http://localhost:3000
+   ```
    
