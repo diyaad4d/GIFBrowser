@@ -9,6 +9,13 @@ Built using **Node.js**, **Express**, **Axios**, and **EJS**, and  **public API*
 - Visit the running app: https://gifbrowser.onrender.com
 
 ---
+<img width="1891" height="967" alt="Screenshot 2025-10-06 004939" src="https://github.com/user-attachments/assets/2ccc676c-b29b-419a-b4ce-31569ea7f9da" />
+<img src="https://github.com/user-attachments/assets/a24a890f-7e98-43e8-ab5c-c43c76f7c43c" alt="Screenshot 1" width="48%" style="display:inline-block; margin-right:2%;" />
+<img src="https://github.com/user-attachments/assets/60cde9fa-f62e-4d52-adaf-74a3a540dcd8" alt="Screenshot 2" width="48%" style="display:inline-block;" />
+<img width="1879" height="965" alt="Screenshot 2025-10-06 005013" src="https://github.com/user-attachments/assets/a4e32830-57ee-4681-a6e9-5c392ccdbc47" />
+
+
+---
 
 ## 🧰 Technologies Used
 
